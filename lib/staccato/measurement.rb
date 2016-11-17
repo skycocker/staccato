@@ -4,6 +4,7 @@ require 'staccato/null_measurement'
 require 'staccato/measurement/checkout'
 require 'staccato/measurement/checkout_option'
 require 'staccato/measurement/impression_list'
+require 'staccato/measurement/item'
 require 'staccato/measurement/product'
 require 'staccato/measurement/product_impression'
 require 'staccato/measurement/promotion'
@@ -18,6 +19,7 @@ module Staccato
         Checkout,
         CheckoutOption,
         ImpressionList,
+        Item,
         Product,
         ProductImpression,
         Promotion,

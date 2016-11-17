@@ -232,7 +232,7 @@ tracker.pageview(path: '/videos/987')
 
 ## Additional Measurements ##
 
-Additional Measurements can be added to any Hit type, but most commonly used with pageviews or events. The current set of measurements is for handling [Enhanced Ecommerce](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#enhancedecom) measurements. I've grouped these into ImpressionList, Product, ProductImpression, Promotion, Transaction, Checkout, and CheckoutOption (w/ ImpressionList). Each can be added and combined – per Google's documentation – onto an existing Hit.
+Additional Measurements can be added to any Hit type, but most commonly used with pageviews or events. The current set of measurements is for handling [Enhanced Ecommerce](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#enhancedecom) measurements. I've grouped these into ImpressionList, Item, Product, ProductImpression, Promotion, Transaction, Checkout, and CheckoutOption (w/ ImpressionList). Each can be added and combined – per Google's documentation – onto an existing Hit.
 
 **Note:** Certain Measurements require an `index`. This is an integer (usually) between 1 and 200 inclusive.
 
