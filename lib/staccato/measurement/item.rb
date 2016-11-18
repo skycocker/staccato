@@ -11,6 +11,7 @@ module Staccato
 
       # Item measurement options fields
       FIELDS = {
+        transaction_id: 'ti', # text
         name: 'in', # text
         price: 'ip', # currency (looks like a double?)
         quantity: 'iq', # integer
